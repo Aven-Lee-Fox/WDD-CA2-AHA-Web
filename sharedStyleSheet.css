@@ -42,3 +42,15 @@ body{
 
 
 /* Gavin's CSS */
+#GL{
+
+    h1{
+        text-align:center;
+        background-color: blue;
+    }
+    
+    p{
+        text-align:center;
+    }
+
+}
