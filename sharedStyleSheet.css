@@ -115,11 +115,23 @@ font-family: "Rubik", sans-serif;
 
     h1{
         text-align:center;
-        background-color: blue;
+        background-color:#ffeeb6;
     }
     
     p{
         text-align:center;
     }
+
+}
+
+.Gavlist ul{
+
+    text-align:center;
+    list-style-type: none;
+
+}
+
+.gavimg1 img{
+        
 
 }
