@@ -12,6 +12,29 @@ body{
 
 }
 
+/* Navigation bar CSS */
+.navWrap ul {
+    list-style-type: none;
+    background-color: #dddddd;
+    overflow: hidden;
+}
+
+.navWrap li {
+    float: left;
+}
+
+.navWrap li a {
+    display: block;
+    padding: 18px;
+    font-size: 18px;
+    text-decoration: none;
+    color: black;
+}
+
+.navWrap li a:hover {
+    background-color: #ababab;
+}
+
 
 
 
@@ -31,7 +54,6 @@ body{
 
 
 /*Yaroslav's CSS */
-
 
 
 
