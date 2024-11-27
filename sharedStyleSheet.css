@@ -1,7 +1,26 @@
 /* insert css*/
 /* Universal CSS */
 
-
+.quicksand> {
+    font-family: "Quicksand", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 300;
+    font-style: normal;
+  }
+  
+  .rubik{
+    font-family: "Rubik", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 300;
+    font-style: normal;
+  }
+  
+  .parkinsans{
+    font-family: "Parkinsans", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 300;
+    font-style: normal;
+  }
 
 body{
 
@@ -33,10 +52,16 @@ font-family: "Rubik", sans-serif;
 
 }
 
+.navWrap{
+
+    
+
+}
+
 /* Navigation bar CSS */
 .navWrap ul {
     list-style-type: none;
-    background-color: #dddddd;
+    background-color: #ffeeb6;
     overflow: hidden;
 }
 
@@ -47,13 +72,14 @@ font-family: "Rubik", sans-serif;
 .navWrap li a {
     display: block;
     padding: 18px;
+    font-family: "Quicksand", sans-serif;
     font-size: 18px;
     text-decoration: none;
     color: black;
 }
 
 .navWrap li a:hover {
-    background-color: #ababab;
+    background-color: #ce9f00;
 }
 
 
