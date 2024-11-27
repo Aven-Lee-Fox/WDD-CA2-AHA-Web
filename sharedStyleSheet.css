@@ -1,14 +1,54 @@
 /* insert css*/
 /* Universal CSS */
+
+.quicksand> {
+  font-family: "Quicksand", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 300;
+  font-style: normal;
+}
+
+.rubik{
+  font-family: "Rubik", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 300;
+  font-style: normal;
+}
+
+.parkinsans{
+  font-family: "Parkinsans", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 300;
+  font-style: normal;
+}
+
 body{
 
     background-color: #fff7dc;
 
 }
 
-#Welcome{
+.Welcome{
 
     text-align: center;
+
+}
+
+h1{
+
+    font-family: "Parkinsans", sans-serif;
+
+}
+
+h2{
+
+    font-family: "Parkinsans", sans-serif;
+
+}
+
+p{
+
+font-family: "Rubik", sans-serif;
 
 }
 
