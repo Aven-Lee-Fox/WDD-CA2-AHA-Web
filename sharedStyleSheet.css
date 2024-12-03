@@ -113,7 +113,7 @@ font-family: "Rubik", sans-serif;
 
     h1{
         text-align:center;
-        background-color:#ffeeb6;
+        
     }
     
     p{
@@ -141,5 +141,9 @@ font-family: "Rubik", sans-serif;
 }
 
 .link{
+    border-width: 10px;;
+    border-color:black;
     color:#ce9f00;
+    
+
 }
