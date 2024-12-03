@@ -100,9 +100,9 @@ font-family: "Rubik", sans-serif;
 
 /*Yaroslav's CSS */
 
-
-
-
+.sus {
+    text-align: center;
+}
 
 
 
@@ -141,5 +141,7 @@ font-family: "Rubik", sans-serif;
 }
 
 .link{
+    border-width: 10px;;
+    border-color:black;
     color:#ce9f00;
 }
