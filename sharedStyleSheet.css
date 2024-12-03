@@ -141,7 +141,10 @@ font-family: "Rubik", sans-serif;
 }
 
 .link{
-    border-width: 10px;;
-    border-color:black;
+
     color:#ce9f00;
+}
+
+.para1forg3{
+    text-align:center;
 }
