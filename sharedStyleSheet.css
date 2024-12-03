@@ -63,7 +63,7 @@ font-family: "Rubik", sans-serif;
     float: left;
 }
 
-.navWrap li a {
+.navWrap li a.bar {
     display: block;
     padding: 21px;
     font-family: "Quicksand", sans-serif;
@@ -72,14 +72,12 @@ font-family: "Rubik", sans-serif;
     color: black;
 }
 
-.navWrap li a:hover {
+.navWrap li a.bar:hover {
     background-color: #ce9f00;
 }
 
 .navWrap img{
-
-    padding: 5px;
-
+    padding: 9px;
 }
 
 
