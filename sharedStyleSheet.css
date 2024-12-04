@@ -53,17 +53,12 @@ font-family: "Rubik", sans-serif;
 }
 
 /* Navigation bar CSS */
-.navWrap ul {
+.navWrap {
     list-style-type: none;
     background-color: #ffeeb6;
-    overflow: hidden;
 }
 
-.navWrap li {
-    float: left;
-}
-
-.navWrap li a.bar {
+.navWrap a.bar {
     display: block;
     padding: 21px;
     font-family: "Quicksand", sans-serif;
@@ -72,7 +67,7 @@ font-family: "Rubik", sans-serif;
     color: black;
 }
 
-.navWrap li a.bar:hover {
+.navWrap a.bar:hover {
     background-color: #ce9f00;
 }
 
@@ -80,9 +75,54 @@ font-family: "Rubik", sans-serif;
     padding: 9px;
 }
 
+/*Code from W3 schools */
+
+.dropbtn {
+    background-color: #ffeeb6;
+    color: white;
+    border: none;
+    cursor: pointer;
+  }
+  
+  /* The container <div> - needed to position the dropdown content */
+  .dropdown {
+    position: relative;
+    display: inline-block;
+  }
+  
+  /* Dropdown Content (Hidden by Default) */
+  .dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #ffeeb6;
+    min-width: 124px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+  }
+  
+  /* Links inside the dropdown */
+  .dropdown-content a {
+    color: black;
+    padding: 12px;
+    text-decoration: none;
+    display: block;
+  }
+  
+  /* Change color of dropdown links on hover */
+  .dropdown-content a:hover {background-color: #ce9f00}
+  
+  /* Show the dropdown menu on hover */
+  .dropdown:hover .dropdown-content {
+    display: block;
+  }
+  
+  /* Change the background color of the dropdown button when the dropdown content is shown */
+  .dropdown:hover .dropbtn {
+    background-color: #ce9f00;
+  }
 
 
-
+     /* End of code from W3 schools*/
 
 
 /* Joseph's CSS */
