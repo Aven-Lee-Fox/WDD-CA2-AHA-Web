@@ -4,8 +4,13 @@ function greet(){
    
     p1=prompt("what time is it?")
     
+<<<<<<< HEAD
     alert("so it is "+p1+" in your area. Are you cold?")
 ;
+=======
+    alert("so it is" +p1+ "in your area. Are you cold?")
+
+>>>>>>> 8be8725 (gav2.js added and image chnaged)
     pc=prompt("Are you cold, yes/no?")
 
     if(pc == "yes"){
@@ -14,4 +19,8 @@ function greet(){
      if(pc == "no"){
         alert("damn enjoy the weather")
     }
+
+    p2=prompt("and one last thing what is your name?")
+
+  
 }
