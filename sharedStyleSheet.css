@@ -148,6 +148,19 @@ font-family: "parkinsans", sans-serif;
 
 }
 
+.health .navWrap{
+
+    text-align: left;
+
+}
+
+.JMinfo{
+
+    text-align: left;
+    padding-left: 15px;
+    padding-right: 15px;
+
+}
 
 /*Yaroslav's CSS */
 
