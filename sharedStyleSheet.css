@@ -192,7 +192,7 @@ display: none;
     text-align: left;
 }
 
-.sus .col-5, .sus .col-3 {
+.sus .col-5, .sus .col-12 {
     background-color: #ffeeb6;
     margin: 1% auto;
     cursor: pointer;
@@ -207,7 +207,7 @@ display: none;
     bottom: 0;
 }
 
-/* Code assistance provied by w3schools in modal section */
+/* Code provied by w3schools to allow modal functions */
 .sus .modal {
     display: none;
     position: fixed;
