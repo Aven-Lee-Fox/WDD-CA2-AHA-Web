@@ -192,10 +192,11 @@ display: none;
     text-align: left;
 }
 
-.sus .col-5 {
+.sus .col-5, .sus .col-3 {
     background-color: #ffeeb6;
     margin: 1% auto;
     cursor: pointer;
+    padding: 1%;
 }
 
 .sus footer {
@@ -220,6 +221,8 @@ display: none;
 .sus .modal-content {
     margin: auto;
     width: 80%;
+    font-size: 20px;
+    padding: 5px;
 }
 
 .sus .close {
