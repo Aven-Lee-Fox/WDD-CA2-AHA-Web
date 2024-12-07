@@ -183,6 +183,43 @@ display: none;
 
 }
 
+.JMH1Content button{
+
+    background-color:#ce9f00;
+    border-radius: 5px;
+    font-family: 'Rubik', sans-serif;
+    border-color:#ce9f00;
+    font-weight: bold;
+    transition-duration: 0.5s;
+
+}
+
+.JMH1Content button:hover{
+
+    background-color: #ffeeb6;
+
+}
+
+.JMH1Content Button:active{
+
+    background-color: #e3d4a1;
+
+}
+
+.contactUs{
+
+    text-align: center;
+    font-family: "parkinsans", sans-serif;
+
+}
+
+.contactUs a:link{
+
+    text-decoration: none;
+    text-shadow: 2px 2px 5px white;
+
+}
+
 /*Yaroslav's CSS */
 .sus {
     text-align: center;
