@@ -173,7 +173,8 @@ font-family: "parkinsans", sans-serif;
 
 .sus .col-5 {
     background-color: #ffeeb6;
-    margin: 1%;
+    margin: 1% auto;
+    cursor: pointer;
 }
 
 .sus footer {
@@ -184,6 +185,26 @@ font-family: "parkinsans", sans-serif;
     bottom: 0;
 }
 
+.sus .modal {
+    display: none; /* Hidden by default */
+    position: fixed; /* Stay in place */
+    z-index: 1; /* Sit on top */
+    padding-top: 20%;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0,0,0,0.4);
+}
+
+.sus .modal-content {
+    margin: auto;
+    width: 80%;
+}
+
+.sus .close {
+    font-size: 28px;
+    font-weight: bold;
+    cursor: pointer;
+}
 
 /* Gavin's CSS */
 #GL{

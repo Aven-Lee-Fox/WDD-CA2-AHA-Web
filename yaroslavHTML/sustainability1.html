@@ -6,6 +6,7 @@
         <link href="https://fonts.googleapis.com/css2?family=Parkinsans:wght@300..800&family=Quicksand:wght@300..700&family=Rubik:ital,wght@0,300..900;1,300..900&display=swap" rel="stylesheet">
         <link href="../images/AHAicon50.png" rel="icon">
         <link href="../sharedStyleSheet.css" rel="stylesheet">
+        <script src="sus1.js"></script>
         <title>Introduction to Sustainability</title>
     </head>
     <body class="sus">
@@ -37,12 +38,20 @@
                 </div>
               </div>    
         </div>
+        <div class="modal" id="myModal">
+            <div class="modal-content">
+                <span class="close" onclick="closeModal()">
+                    x
+                </span>
+                <p id="modalText"></p>
+            </div>
+        </div>
         <div>
             <h1>Sustainability In Reducing Hunger</h1>
             <div class="container">
                 <div class="row">
                     <div class="col-1"></div>
-                    <div class="col-5">
+                    <div class="col-5" id="para1" onclick="openModal(this)">
                         <p>
                             In this webpage, we hope to introduce you to the sustainability side of reducing the number of hungry people worldwide.<br>
                             This is sometimes not talked about enough but ensuring sustainability through innovative solutions is very important.<br>
@@ -50,7 +59,7 @@
                             well balanced diet. But it would also reduce our effect on the climate and reduce the strain.
                         </p>
                     </div>
-                    <div class="col-5">
+                    <div class="col-5" id="para2" onclick="openModal(this)">
                         <p>
                             As of right now, agriculture is not sustainable in the long term. (add more text)
                         </p>
@@ -59,12 +68,12 @@
                 </div>
                 <div class="row">
                     <div class="col-1"></div>
-                    <div class="col-5">
+                    <div class="col-5" id="para3" onclick="openModal(this)">
                         <p>
                             (add more text, maybe an image or two)
                         </p>
                     </div>
-                    <div class="col-5">
+                    <div class="col-5" id="para4" onclick="openModal(this)">
                         <p>
                             (add more text, maybe an image or two)
                         </p>
@@ -76,7 +85,7 @@
         <footer>
             <p>
                 test footer tag
-            </p>>
+            </p>
         </footer>
     </body>
 </html>
