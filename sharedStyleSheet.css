@@ -168,8 +168,17 @@ font-family: "parkinsans", sans-serif;
     text-align: center;
 }
 
+.sus .navWrap {
+    text-align: left;
+}
 
-
+.sus footer {
+    width: 100%;
+    background-color: #ce9f00;
+    position: fixed;
+    padding: 10px;
+    bottom: 0;
+}
 
 
 /* Gavin's CSS */
