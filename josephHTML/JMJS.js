@@ -1,4 +1,4 @@
-function showHide(){
+function showHide(){ //shows and hides the list of illnesses with a toggle, starts hidden then shows upon click of a button and when shown the button will hide it
 	
 	let doc= document.getElementById("JMShowHide");
     let button= document.getElementById("buttonText");
@@ -9,7 +9,7 @@ function showHide(){
 
         doc.style.display = 'none'; //if the display is shown this will hide it
 
-        button.innerText = "Show illnesses list"; // changes the button to say "show" instead of
+        button.innerText = "Show illnesses list"; // changes the button to say "show" instead of "hide"
 			
 	} else{
 			
@@ -23,7 +23,7 @@ function showHide(){
 	
 }
 
-function validate(){
+function validate(){ //the function for the form, checks each field for a valid input then validates
 
     //fn & sn check that something has been submitted
     
@@ -31,9 +31,7 @@ function validate(){
     
     //check email for @ symbol
     
-    //check date of birth day field for 0 < day > 32
-
-    // check date of birth month field for 0 < day > 13
+    //checks to see the date field is not YYYY/MM/DD
 
 
     
@@ -111,7 +109,7 @@ function validate(){
 
 }
 
-function randImg(){
+function randImg(){ //the function for the randomisation, sets out an array with HTML tags to show images, picks a random number then checks it against the array and then puts it into the div with the id "imageHere"
 
     const image = ["<img alt='picture of a white dog laying on a wooden deck' src='./images/dog1.jpg'>", "<img alt='picture of a corgi in a grassy field looking at the camera' src='./images/dog2.jpg'>", "<img alt='lineart of a dog looking off into the distance' src='./images/dog3.png'>"]
 
