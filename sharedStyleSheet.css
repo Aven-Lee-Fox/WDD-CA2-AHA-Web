@@ -163,13 +163,17 @@ font-family: "parkinsans", sans-serif;
 }
 
 /*Yaroslav's CSS */
-
 .sus {
     text-align: center;
 }
 
 .sus .navWrap {
     text-align: left;
+}
+
+.sus .col-5 {
+    background-color: #ffeeb6;
+    margin: 1%;
 }
 
 .sus footer {
