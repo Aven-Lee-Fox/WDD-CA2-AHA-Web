@@ -206,6 +206,55 @@ display: none;
 
 }
 
+.form{
+
+    Padding-top: 15px;
+    padding-left: 40%;
+    width: 60%;
+    float: center;
+
+}
+
+.JMFormSubmit{
+
+    background-color:#ce9f00;
+    border-radius: 5px;
+    font-family: 'Rubik', sans-serif;
+    border-color:#ce9f00;
+    font-weight: bold;
+    transition-duration: 0.5s;
+
+}
+
+.JMFormSubmit:hover{
+
+    background-color: #ffeeb6;
+
+}
+
+.JMFormSubmit:active{
+
+    background-color: #e3d4a1;
+
+}
+
+.formResults{
+
+    padding: 0;
+
+    text-align:center
+}
+
+.formResults #details{
+
+    Color: Red;
+}
+
+.formResults #thx{
+
+    Color: rgb(4, 168, 4);
+}
+
 .contactUs{
 
     text-align: center;
@@ -219,6 +268,38 @@ display: none;
     text-shadow: 2px 2px 5px white;
 
 }
+
+.RandomisationJM{
+
+    text-align: center;
+
+
+}
+
+.randombutton{
+
+    background-color:#ce9f00;
+    border-radius: 5px;
+    font-family: 'Rubik', sans-serif;
+    border-color:#ce9f00;
+    font-weight: bold;
+    transition-duration: 0.5s;
+
+}
+
+
+.randombutton:hover{
+
+    background-color: #ffeeb6;
+
+}
+
+.randombutton:active{
+
+    background-color: #e3d4a1;
+
+}
+
 
 /*Yaroslav's CSS */
 .sus {
