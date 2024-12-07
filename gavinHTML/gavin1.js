@@ -10,7 +10,7 @@ function greet(){
 =======
     alert("so it is" +p1+ "in your area. Are you cold?")
 
->>>>>>> 8be8725 (gav2.js added and image chnaged)
+
     pc=prompt("Are you cold, yes/no?")
 
     if(pc == "yes"){
