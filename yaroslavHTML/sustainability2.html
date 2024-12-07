@@ -6,6 +6,7 @@
         <link href="https://fonts.googleapis.com/css2?family=Parkinsans:wght@300..800&family=Quicksand:wght@300..700&family=Rubik:ital,wght@0,300..900;1,300..900&display=swap" rel="stylesheet">
         <link href="../images/AHAicon50.png" rel="icon">
         <link href="../sharedStyleSheet.css" rel="stylesheet">
+        <script src="randomInit.js"></script>
         <title>[Insert Title]</title>
     </head>
     <body class="sus">
@@ -33,18 +34,23 @@
                 <button class="dropbtn"><a class="bar" href="../yaroslavHTML/sustainability1.html">Sustainability</a></button>
                 <div class="dropdown-content">
                   <a href="../yaroslavHTML/sustainability1.html">Introduction</a>
-                  <a href="../yaroslavHTML/sustainability2.html">Initiatives</a>
+                  <a href="../yaroslavHTML/sustainability2.html">Targets</a>
                 </div>
             </div>
         </div>
         <div>
-            <h1>Initiatives in providing sustainable agriculture</h1>
+            <h1>Targets in providing sustainable agriculture</h1>
             <div class="container">
                 <div class="row">
-                    <div class="col-12">
+                    <div class="col-12" onclick="randomTarget()">
                         <p>
-                            Click to see a random initiative
+                            Click to see a random target
                         </p>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-12">
+                        <p id="randIn"></p>
                     </div>
                 </div>
             </div>
