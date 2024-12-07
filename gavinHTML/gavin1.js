@@ -4,8 +4,8 @@ function greet(){
    
     p1=prompt("what time is it?")
     
-    alert("so it is"+p1+"in your area. Are you cold?")
-
+    alert("so it is "+p1+" in your area. Are you cold?")
+;
     pc=prompt("Are you cold, yes/no?")
 
     if(pc == "yes"){
