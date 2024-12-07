@@ -128,7 +128,7 @@ font-family: "Rubik", sans-serif;
 /* Joseph's CSS */
 
 
-.healthIntro{
+.health{
 
 text-align: center;
 
@@ -142,25 +142,7 @@ font-family: "parkinsans", sans-serif;
 
 
 
-.healthIntro p{
-
-    font-size: 20px;
-
-}
-
-.JMChildren p{
-
-    font-size: 20px;
-
-}
-
-.JMTeens p{
-
-    font-size: 20px;
-
-}
-
-.JMAdults p{
+.health p{
 
     font-size: 20px;
 
