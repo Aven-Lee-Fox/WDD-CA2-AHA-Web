@@ -8,10 +8,10 @@ function greet(){
 
     pc=prompt("Are you cold, yes/no?")
 
-    if("yes"){
+    if(pc == "yes"){
         alert("how are you alive.")
     }
-     if("no"){
+     if(pc == "no"){
         alert("damn enjoy the weather")
     }
 }
