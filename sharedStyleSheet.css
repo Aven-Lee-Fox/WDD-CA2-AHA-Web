@@ -142,7 +142,29 @@ font-family: "parkinsans", sans-serif;
 
 
 
+.healthIntro p{
 
+    font-size: 20px;
+
+}
+
+.JMChildren p{
+
+    font-size: 20px;
+
+}
+
+.JMTeens p{
+
+    font-size: 20px;
+
+}
+
+.JMAdults p{
+
+    font-size: 20px;
+
+}
 
 
 /*Yaroslav's CSS */
