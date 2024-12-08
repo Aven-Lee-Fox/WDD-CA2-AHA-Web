@@ -20,38 +20,37 @@
 
     <body class="health">
 
-        <div class="navWrap">
-            <a href="../index.html"><img src="../images/AHAlogo50.png" alt="Anti Hunger Agency Logo"></a>
-            <div class="dropdown">
-                <button class="dropbtn"><a class="bar" href="../gavinHTML/gavin1.html">Financial</a></button>
-                <div class="dropdown-content">
-                  <a href="../gavinHTML/gavin1.html">Introduction</a>
-                  <a href="../gavinHTML/gavin2.html">Financial aspects to solving world hunger</a>
-                  <a href="../gavinHTML/gavin3.html">Charitable Organisations</a>
-                  <a href="../gavinHTML/gavin4.html">Random facts</a>
-                </div>
-              </div>
+      <div class="navWrap"> <!--the navbar, this is how each webpage will connect to each other for sure-->
+        <a href="../index.html"><img src="../images/AHAlogo50.png" alt="Anti Hunger Agency Logo"></a>
+        <div class="dropdown">
+            <p class="dropbtn"><a class="bar" href="../gavinHTML/gavin1.html">Financial</a></p> <!--creates a heading for the financial pages of our website, drops down to show all the pages in the financial heading-->
+            <div class="dropdown-content">
+              <a href="../gavinHTML/gavin1.html">Introduction</a>
+              <a href="../gavinHTML/gavin2.html">Financial aspects to solving world hunger</a>
+              <a href="../gavinHTML/gavin3.html">Charitable Organisations</a>
+              <a href="../gavinHTML/gavin4.html">Random facts</a>
+            </div>
+          </div>
 
-              <div class="dropdown">
-                <button class="dropbtn"> <a class="bar" href="../josephHTML/Health1.html">Health</a></button>
-                <div class="dropdown-content">
-                  <a href="../josephHTML/Health1.html">Hungers impact on children</a>
-                  <a href="../josephHTML/Health2.html">Contact Us</a>
-                </div>
-              </div>
-              
-              <div class="dropdown">
-                <button class="dropbtn"><a class="bar" href="../yaroslavHTML/sustainability1.html">Sustainability</a></button>
-                <div class="dropdown-content">
-                  <a href="../yaroslavHTML/sustainability1.html">Introduction</a>
-                  <a href="../yaroslavHTML/sustainability2.html">Targets</a>
-                  <a href="../yaroslavHTML/sustainabilityContact.html">Contact Sustainability</a>
-                </div>
-              </div>  
+          <div class="dropdown">
+            <p class="dropbtn"> <a class="bar" href="../josephHTML/Health1.html">Health</a></p> <!--creates a heading for the health pages of our website, drops down to show all the pages in the health heading-->
+            <div class="dropdown-content">
+              <a href="../josephHTML/Health1.html">Hungers Impact on a Child's Health</a>
+              <a href="../josephHTML/Health2.html">Contact Us</a>
+            </div>
+          </div>
           
-      </div>
+          <div class="dropdown">
+            <p class="dropbtn"><a class="bar" href="../yaroslavHTML/sustainability1.html">Sustainability</a></p> <!--creates a heading for the sustainability pages of our website, drops down to show all the pages in the sustainability heading-->
+            <div class="dropdown-content">
+              <a href="../yaroslavHTML/sustainability1.html">Introduction</a>
+              <a href="../yaroslavHTML/sustainability2.html">Targets</a>
+              <a href="../yaroslavHTML/sustainabilityContact.html">Contact Sustainability</a>
+            </div>
+          </div>
+    </div>
 
-      <div class="form">
+      <div class="container-fluid, form">
 
         <form onsubmit="return validate()">
 		
@@ -59,7 +58,7 @@
           
           Surname:<input type="text" id="sn"><br><br>
           
-          Telephone:<input type="numeric" id="tel"><br><br>
+          Telephone:<input type="number" id="tel"><br><br>
           
           Email:<input type="text" id="email"><br><br>
 

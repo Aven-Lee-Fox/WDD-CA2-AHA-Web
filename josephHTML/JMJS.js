@@ -5,17 +5,12 @@ function showHide(){ //shows and hides the list of illnesses with a toggle, star
 	
 	if(doc.style.display == 'inline'){
 			
-		
-
         doc.style.display = 'none'; //if the display is shown this will hide it
 
-        button.innerText = "Show illnesses list"; // changes the button to say "show" instead of "hide"
 			
 	} else{
 			
         doc.style.display = 'inline'; // if the display is none this will show it
-
-        button.innerText = "Hide illnesses list"; // changes the button to say "hide" instead of "show"
 			
 	}
 	
@@ -111,7 +106,7 @@ function validate(){ //the function for the form, checks each field for a valid 
 
 function randImg(){ //the function for the randomisation, sets out an array with HTML tags to show images, picks a random number then checks it against the array and then puts it into the div with the id "imageHere"
 
-    const image = ["<img alt='picture of a white dog laying on a wooden deck' src='./images/dog1.jpg'>", "<img alt='picture of a corgi in a grassy field looking at the camera' src='./images/dog2.jpg'>", "<img alt='lineart of a dog looking off into the distance' src='./images/dog3.png'>"]
+    const image = ["<img class='img-fluid' alt='picture of a white dog laying on a wooden deck' src='./images/dog1.jpg'>", "<img class='img-fluid' alt='picture of a corgi in a grassy field looking at the camera' src='./images/dog2.jpg'>", "<img class='img-fluid' alt='lineart of a dog looking off into the distance' src='./images/dog3.png'>"]
 
     arrayChoice = Math.floor(Math.random()*image.length);
 
@@ -130,7 +125,7 @@ function myMove() {
     clearInterval(id);
     id = setInterval(frame, 5);
     function frame() {
-      if (pos == 1486) {
+      if (pos == 300) {
         clearInterval(id);
       } else {
         pos++; 
@@ -147,13 +142,13 @@ function myMove() {
 
     name = prompt("What is your name?");
     
-    if(name == null){
+    if(name == null || name == ""){
 
-        document.getElementById("JMGreet").innerHTML = "";
+        document.getElementById("JMGreet").innerHTML = "<h1> welcome to the health centre of AHA </h1>";
 
     } else{
     
-        document.getElementById("JMGreet").innerHTML = "Hello " +name+ ",";
+        document.getElementById("JMGreet").innerHTML = "<H1> Hello " +name+ ", welcome to the health centre of AHA </h1>";
 
     }
   }

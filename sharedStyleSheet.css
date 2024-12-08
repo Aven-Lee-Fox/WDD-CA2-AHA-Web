@@ -61,6 +61,8 @@ font-family: "Rubik", sans-serif;
 .navWrap a.bar {
     display: block;
     padding: 21px;
+    padding-left: 5px;
+    padding-right: 5px;
     font-family: "Quicksand", sans-serif;
     font-size: 18px;
     text-decoration: none;
@@ -82,7 +84,6 @@ font-family: "Rubik", sans-serif;
     color: white;
     border: none;
     cursor: pointer;
-    transition-duration: 0.5s;
   }
   
   /* The container <div> - needed to position the dropdown content */
