@@ -138,3 +138,22 @@ function myMove() {
       }
     }
   }
+
+  // end of code from w3Schools
+
+  function JMGreet(){ // this is a function that asks the user for their name and places it into the website, greeting them.
+
+    var name;
+
+    name = prompt("What is your name?");
+    
+    if(name == null){
+
+        document.getElementById("JMGreet").innerHTML = "";
+
+    } else{
+    
+        document.getElementById("JMGreet").innerHTML = "Hello " +name+ ",";
+
+    }
+  }
