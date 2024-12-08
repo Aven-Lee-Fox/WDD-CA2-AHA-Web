@@ -404,7 +404,7 @@ display: none;
     cursor: pointer;
 }
 
-/* Code provied by w3schools to allow modal functions */
+/* W3schools helped in this css. Allow modal functions */
 .sus .modal {
     display: none;
     position: fixed;
