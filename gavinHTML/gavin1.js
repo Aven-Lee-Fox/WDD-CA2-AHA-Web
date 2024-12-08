@@ -20,5 +20,7 @@ function greet(){
 
     p2=prompt("and one last thing what is your name?");
 
+      alert("welcome "+p2+ " i hope you have a great time on the page")
+
   
 }

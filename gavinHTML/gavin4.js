@@ -25,6 +25,7 @@ function displayRandomFact() {
 var prevInteger;
 var integer;
 
+// this form was made by joseph, with added on aspects done by me, im giving him great credit for this form
 
 function validate(){ //the function for the form, checks each field for a valid input then validates
 
@@ -43,6 +44,9 @@ function validate(){ //the function for the form, checks each field for a valid 
     let msge = "incomplete form, please input the following details:<br>";
     
     let thx = "";
+
+    
+
     
     if(document.getElementById("fn").value == ""){
     
@@ -93,6 +97,20 @@ function validate(){ //the function for the form, checks each field for a valid 
         valid = false;
         
     }
+
+
+
+
+    if(document.getElementById("response").value == ""){
+    
+        msge+="Please insert your response to how you felt about your experience";
+        valid = false;
+        
+    }
+
+
+
+
     
     if(valid){
     
@@ -107,6 +125,7 @@ function validate(){ //the function for the form, checks each field for a valid 
     document.getElementById("details").innerHTML = msge; //return the flag and show the msge
     
     return valid;
+
     
     }
 }
