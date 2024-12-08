@@ -1,5 +1,5 @@
-//Author: Yaroslav Kondaurov
-//Description: Takes a random string from array to be inserted into the inner HTML in the generating random target/fact/initiative
+// Author: Yaroslav Kondaurov
+// Description: Takes a random string from array to be inserted into the inner HTML in the generating random target/fact/initiative
 
 function randomTarget() {
     const targetList = [ // Text to be used in the generate a random target. Simply adding more, adds more options to be rolled in the random generator
