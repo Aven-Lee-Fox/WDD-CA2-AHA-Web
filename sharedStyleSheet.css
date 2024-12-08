@@ -402,6 +402,7 @@ display: none;
     width: 80%;
     font-size: 20px;
     padding: 5px;
+    background-image: linear-gradient(to bottom right, white, #e3d4a1) ;
 }
 
 .sus .close {
