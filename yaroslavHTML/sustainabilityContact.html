@@ -41,21 +41,23 @@
         </div>
         <!--Form validation provided by Joseph-->
         <div class="form">
-            <form onsubmit="return validate()">
+          <form onsubmit="return validate()">
+		
+            <p>First name:<input type="text" id="fn"><br><br>
             
-              <p>First name:<input type="text" id="fn"><br>
-              
-              Surname:<br><input type="text" id="sn"><br>
-              
-              Telephone:<br><input type="numeric" id="tel"><br>
-              
-              Email:<br><input type="text" id="email"><br>
-    
-              Date of birth:<br><input type="date" id="DOB"></p><br>
-    
-              <input type="submit" value="Submit">
-              
-            </form>
+            Surname:<input type="text" id="sn"><br><br>
+            
+            Telephone:<input type="number" id="tel"><br><br>
+            
+            Email:<br><input type="text" id="email"><br><br>
+  
+            Date of birth: <br>
+            
+            <input type="date" id="DOB"></p><br><br>
+  
+            <input class="JMFormSubmit" type="submit" value="Submit details">
+            
+          </form>
         </div>
         <div class="formResults">
             <p id="details"></p>
