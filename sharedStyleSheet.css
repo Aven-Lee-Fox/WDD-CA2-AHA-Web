@@ -382,7 +382,6 @@ display: none;
 .sus .col-5, .sus .col-12 {
     background-color: #ffeeb6;
     margin: 1% auto;
-    cursor: pointer;
     padding: 1%;
 }
 
@@ -392,6 +391,17 @@ display: none;
     position: fixed;
     padding: 10px;
     bottom: 0;
+}
+
+.sus .randTar {
+    border: none;
+    border-radius: 20px;
+    padding: 10px 20px;
+    background-color: #ce9f00;
+}
+
+.sus .con {
+    cursor: pointer;
 }
 
 /* Code provied by w3schools to allow modal functions */
