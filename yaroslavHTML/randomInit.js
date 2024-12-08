@@ -4,9 +4,9 @@
 function randomTarget() {
     const targetList = [ // Text to be used in the generate a random target. Simply adding more, adds more options to be rolled in the random generator
         "One such target set by the unitied nations, is to ensure sustainable food production via improved systems. This involves the implementation of resilient farming practices that help maintain local ecosystems and strength the capacity of both for climate change and extreme weather conditions",
-        "Oh boy another initiative",
-        "A third one",
-        "Test"
+        "Insert second target",
+        "Insert third target",
+        "Insert fourth target"
     ];
 
     // This section ensures the same integer is not the same as the previously used one. To make the same target not appear twice or more in a row
