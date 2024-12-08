@@ -1,6 +1,8 @@
 // Author: Yaroslav Kondaurov
-// Description: Takes a random string from array to be inserted into the inner HTML in the generating random target/fact/initiative
+// Description: Javascript to handle random target display using an array with randomisation
 
+// Functions
+// Takes a random string from array to be inserted into the inner HTML in the generating random target/fact/initiative section
 function randomTarget() {
     const targetList = [ // Text to be used in the generate a random target. Simply adding more, adds more options to be rolled in the random generator
         "One such target set by the unitied nations, is to ensure sustainable food production via improved systems. This involves the implementation of resilient farming practices that help maintain local ecosystems and strength the capacity of both for climate change and extreme weather conditions. Overall, this would improve the soil quality and over time improve the land allowing future generations to live sustainably with no hunger.",
@@ -18,5 +20,6 @@ function randomTarget() {
 }
 
 // Variables
-var prevInteger; //Initialize global variables
+//Initialize global variables
+var prevInteger;
 var integer;
