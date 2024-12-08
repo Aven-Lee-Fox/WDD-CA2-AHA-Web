@@ -1,4 +1,4 @@
-function displayRandomFact() {
+function displayRandomFact() {   //taken from inspiration of yarick.
     const targetList = [
   "Over 800 million people around the world suffer from hunger.",
   "One in nine people worldwide go to bed hungry every day.",
