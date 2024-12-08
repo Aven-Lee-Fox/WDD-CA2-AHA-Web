@@ -42,7 +42,7 @@ function validate(){ //the function for the form, checks each field for a valid 
     
     let msge = "incomplete form, please input the following details:<br>";
     
-    let thx = "";}
+    let thx = "";
     
     if(document.getElementById("fn").value == ""){
     
@@ -109,3 +109,4 @@ function validate(){ //the function for the form, checks each field for a valid 
     return valid;
     
     }
+}
